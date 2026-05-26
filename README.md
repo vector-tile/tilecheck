@@ -6,15 +6,19 @@ Built and maintained by [vector-tile.com](https://www.vector-tile.com) — the v
 
 ## Install
 
-```sh
-pip install tilecheck
-```
-
-Or run without installing globally:
+Install directly from this repository:
 
 ```sh
-pipx run tilecheck path/to/tiles.pmtiles
+pip install git+https://github.com/vector-tile/tilecheck.git
 ```
+
+Or use [pipx](https://pipx.pypa.io/) to keep it isolated from your system Python:
+
+```sh
+pipx install git+https://github.com/vector-tile/tilecheck.git
+```
+
+> A PyPI release is planned. Until then, install from the Git URL above.
 
 ## Usage
 
